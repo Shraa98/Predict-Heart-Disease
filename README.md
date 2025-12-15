@@ -12,6 +12,9 @@
 
 This project aims to demonstrate the power of **Early Detection** and **Preventive Healthcare** through accessible AI technology, leveraging a robust **Random Forest Classifier** trained on over 900,000 health records.
 
+## 🎥 Live Demo
+render live : https://predict-heart-disease-fn9m.onrender.com
+
 ## 📁 Project Structure
 
 ```bash
@@ -86,9 +89,6 @@ python3 frontend/src/app.py
 ```
 
 Visit **http://127.0.0.1:10000** in your browser.
-
-## 🎥 Live Demo
-render live : https://predict-heart-disease-fn9m.onrender.com
 
 > **Note**: The application will automatically download the trained `Random_forest.pkl` model from Google Drive on the first run.
 
