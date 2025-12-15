@@ -87,6 +87,9 @@ python3 frontend/src/app.py
 
 Visit **http://127.0.0.1:10000** in your browser.
 
+## Live Demo
+render live : https://predict-heart-disease-fn9m.onrender.com
+
 > **Note**: The application will automatically download the trained `Random_forest.pkl` model from Google Drive on the first run.
 
 ## 📈 Evaluation
