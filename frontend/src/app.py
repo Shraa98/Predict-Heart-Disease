@@ -5,7 +5,10 @@ import pandas as pd
 from flask import Flask, render_template, request
 import numpy as np
 import traceback
-import db
+try:
+    import db
+except ImportError:
+    from frontend.src import db
 from dotenv import load_dotenv
 from pathlib import Path 
 
